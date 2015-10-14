@@ -1,0 +1,32 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #tabela, #tabela * {
+    visibility: visible;
+  }
+  table, table * {
+  	visibility: visible;
+  }
+
+  #logo, #logo * {
+  	visibility: visible;
+  	position: fixed;
+    left: 0;
+    top: -73%;
+  }
+
+  #tabela {
+    position: fixed;
+    left: 50%;
+    top: -70%;
+  }
+
+  table {
+  	position: fixed;
+    left: 0;
+    top: -50%;
+  }
+
+}
+@page {size:landscape;}

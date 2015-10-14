@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="../../css/materialize.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/tabela.css">
+	<link rel="shortcut icon" href="../../images/icons/ico.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" charset="UTF-8"/>
+	<title>E+ Tarifas Bancárias para Universitários</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="../../js/materialize.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script src="js/scriptTaxas.js"></script>
+	<script>
+		$( document ).ready(function(){ 
+			$(".button-collapse").sideNav();
+			$('.parallax').parallax();
+			$('.scrollspy').scrollSpy();
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 300) {
+					document.getElementById("logo").style.visibility = 'visible';
+					document.getElementById("logo").style.opacity = '1';
+				} else {
+					document.getElementById("logo").style.visibility = 'hidden';
+					document.getElementById("logo").style.opacity = '0';
+				}
+			});
+		});
+	</script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-66363312-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div class="navbar-fixed">
+		<nav class="grey darken-4">
+			<div class="nav-wrapper">
+				<a id="logo" href="#home" class="brand-logo" style="visibility:hidden;opacity:0;"><img src="../../images/logo.png"/></a>
+				<a href="#" data-activates="menu" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="../../index.html#home">Home</a></li>
+					<li><a href="../../index.html#quemsomos">Quem Somos</a></li>
+					<li><a href="../../index.html#ferramentas">E+ Ferramentas</a></li>
+					<li><a href="http://www.economais.me/blog" target="_blank">Blog</a></li>
+					<li><a href="../../index.html#contato">Contato</a></li>
+				</ul>
+				<ul class="side-nav" id="menu">
+					<li><a href="../../index.html#home">Home</a></li>
+					<li><a href="../../index.html#quemsomos">Quem Somos</a></li>
+					<li><a href="../../index.html#ferramentas">E+ Ferramentas</a></li>
+					<li><a href="http://www.economais.me/blog" target="_blank">Blog</a></li>
+					<li><a href="../../index.html#contato">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div id="home" class="parallax-container scrollspy">
+		<div class="parallax"><img src="../../images/parallax.png"></div>
+	</div>
+	<div class="espaco2"></div>
+	<div class="container" id="tabela"><h5><b>E+ Tarifas Bancárias para Universitários</b></h5></div>
+	<div class="espaco2"></div>
+	<div ng-app="mainApp" ng-controller="taxasController">
+		<table  class="bordered striped centered tabela">
+			<thead>
+				<tr class="cab">
+					<td>Banco</td>
+					<th colspan="2" ng-repeat="dados in taxas.bancos"> {{dados.nome}} </th>
+				</tr>
+				<tr class="cab">
+					<td>Nomenclatura</td>	
+					<td class="cent" colspan="2" ng-repeat="dados in taxas.bancos"> {{dados.nomenclatura}} </td>
+				</tr>
+				<tr class="cab">
+					<td></td>
+					<td class="cent">Qtde total de serviços</td>
+					<td class="cent">Qtde Gratuita</td>
+					<td class="cent">Qtde total de serviços</td>
+					<td class="cent">Qtde Gratuita</td>
+					<td class="cent">Qtde total de serviços</td>
+					<td class="cent">Qtde Gratuita</td>
+					<td class="cent">Qtde total de serviços</td>
+					<td class="cent">Qtde Gratuita</td>
+					<td class="cent">Qtde total de serviços</td>
+					<td class="cent">Qtde Gratuita</td>
+					<td class="cent">Qtde total de serviços</td>
+					<td class="cent">Qtde Gratuita</td>
+				</tr>
+				<tr>
+				</tr>
+
+				<tr>
+					<td>Saque de conta de depósitos à vista e de poupança</td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.saqueDepositoTotalServicos}} </td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.saqueDepositoQntGratuita}} </td> 
+				</tr>
+				<tr>
+					<td>Fornecimento de extrato de um período de conta de depósitos à vista e de poupança</td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.totalServicosExtrato}} </td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.qntGraisExtrato}} </td>
+				</tr>
+				<tr>
+					<td>Fornecimento de extrato mensal de conta de depósitos à vista e de poupança (movimento dos últimos 30 dias)</td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.totalExtratoMensal}} </td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.totalExtratoMensalGratis}} </td>
+				</tr>
+				<tr>
+					<td>Fornecimento de folhas de cheque</td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.totalCheque}} </td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.totalChequeGratis}} </td>
+				</tr>
+				<tr>
+					<td>Juros do Cheque Especial</td>
+					<td class="cent" colspan="2" ng-repeat="dados in taxas.bancos"> {{dados.juros | percentage: 2}} </td>
+				</tr>
+				<tr>
+					<td>Transferências entre contas na própria instituição</td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.totalTransConta}} </td>
+					<td class="cent" ng-repeat="dados in taxas.bancos"> {{dados.totalTransContaGratis}} </td>
+				</tr>
+				<tr>
+					<td>Limite de cartão de crédito pré-aprovado</td>
+					<td class="cent" colspan="2" ng-repeat="dados in taxas.bancos"> {{dados.limCC}} </td>
+				</tr>
+				<tr>
+					<td>Limite de cheque especial pré-aprovado</td>
+					<td class="cent" colspan="2" ng-repeat="dados in taxas.bancos"> {{dados.limCE}} </td>
+				</tr>
+				<tr>
+					<td>Anuidade cartão de crédito</td>
+					<td class="cent" colspan="2" ng-repeat="dados in taxas.bancos"> {{dados.anuidadeCC}} </td>
+				</tr>
+				<tr>
+					<td>Condições Especiais da anuidade</td>
+					<td class="cent" colspan="2" ng-repeat="dados in taxas.bancos"> {{dados.condicoesAnuidade}} </td>
+				</tr>
+				<tr>
+					<td>Condições de uso após se formar</td>
+					<td class="cent" colspan="2" ng-repeat="dados in taxas.bancos"> {{dados.condicoesUso}} </td>
+				</tr>
+				<tr>
+					<td>VALOR DA CESTA</td>
+					<td class="cent" colspan="2" ng-repeat="dados in taxas.bancos"> {{dados.valorCesta}} </td>
+				</tr>
+			</thead>
+		</table>
+		<div class="espaco2"></div>
+		<div class="container"><button class="btn waves-effect waves-light grey darken-4 right " type="submit" onclick="window.print();">Imprimir</button></div>
+		<div class="container">Legenda: NI = Não informado.</div>
+
+	</div>
+</body>
+<footer class="page-footer grey darken-4">
+	<div class="footer-copyright">
+		<div class="container center">
+			© 2015 Todos os direitos reservados.
+		</div>
+	</div>
+</footer>
+</html>

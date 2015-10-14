@@ -1,0 +1,530 @@
+[
+	{
+		"Id": 0,
+        "Latitude": -16.598525, 
+        "Longitude": -49.280871,
+		"Descricao": "Agronomia e Engenharia de Alimentos"
+    },
+    {
+		"Id": 1,
+        "Latitude": -16.6028117,
+        "Longitude": -49.2619793,
+		"Descricao": "Almoxarifado de Materiais Químicos/IQ"
+    },
+    {
+		"Id": 2,
+        "Latitude": -16.603595, 
+        "Longitude": -49.260162,
+		"Descricao": "Banco do Brasil"
+    },
+    {
+		"Id": 3,
+        "Latitude": -16.603702, 
+        "Longitude": -49.260120,
+		"Descricao": "Banco Santander"
+    },
+    {
+		"Id": 4,
+        "Latitude": -16.605584, 
+        "Longitude": -49.261399,
+		"Descricao": "Biblioteca Central"
+    },
+    {
+		"Id": 5,
+        "Latitude": -16.600930, 
+        "Longitude": -49.265929,
+		"Descricao": "Biotério"
+    },
+    {
+		"Id": 6,
+        "Latitude": -16.602919, 
+        "Longitude": -49.264462,
+		"Descricao": "Café das Letras"
+    },
+    {
+		"Id": 7,
+        "Latitude": -16.601894, 
+        "Longitude": -49.261780,
+		"Descricao": "Caixa Econômica Federal"
+    },
+    {
+		"Id": 8,
+        "Latitude": -16.604150, 
+        "Longitude": -49.268663,
+		"Descricao": "Cantina da FEF"
+    },
+    {
+		"Id": 9,
+        "Latitude": -16.599938, 
+        "Longitude": -49.261418,
+		"Descricao": "Casa do Estudante Universitário (CEU Samambaia)"
+    },
+    {
+		"Id": 10,
+        "Latitude": -16.600645, 
+        "Longitude": -49.265087,
+		"Descricao": "Casa Projetos Sociais UFG"
+    },
+    {
+		"Id": 11,
+        "Latitude": -16.603746, 
+        "Longitude": -49.268101,
+		"Descricao": "Centro de Aulas/FEF"
+    },
+    {
+		"Id": 12,
+        "Latitude": -16.602688, 
+        "Longitude": -49.262754,
+		"Descricao": "Centro de Aulas Aroeira (CAA)"
+    },
+    {
+		"Id": 13,
+        "Latitude": -16.603144, 
+        "Longitude": -49.265826,
+		"Descricao": "Centro de Aulas Baru (CAB)"
+    },
+    {
+		"Id": 14,
+        "Latitude": -16.604184, 
+        "Longitude": -49.264698,
+		"Descricao": "Centro de Aulas Caraíba (CAC)"
+    },
+    {
+		"Id": 15,
+        "Latitude": -16.604184, 
+        "Longitude": -49.264698,
+		"Descricao": "Centro de Aulas Pequí"
+    },
+    {
+		"Id": 16,
+        "Latitude": -16.603741, 
+        "Longitude": -49.260378,
+		"Descricao": "Centro de Convivência (CC)"
+    },
+    {
+		"Id": 17,
+        "Latitude": -16.603616, 
+        "Longitude": -49.266002,
+		"Descricao": "Centro de Convivência Reuni"
+    },
+    {
+		"Id": 18,
+        "Latitude": -16.603659, 
+        "Longitude": -49.268124,
+		"Descricao": "Centro de Dança Lenir Minguel de Lima/FEF"
+    },
+    {
+		"Id": 19,
+        "Latitude": -16.606064, 
+        "Longitude": -49.261645,
+		"Descricao": "Centro de Documentação, Informação e Memória (CDIM)"
+    },
+    {
+		"Id": 20,
+        "Latitude": -16.608357, 
+        "Longitude": -49.265479,
+		"Descricao": "Centro de Ensino e Pesquisa Aplicada à Educação (CEPAE)"
+    },
+    {
+		"Id": 21,
+        "Latitude": -16.603962, 
+        "Longitude": -49.258865,
+		"Descricao": "Centro de Eventos Prof. Ricardo Freua Bufáiçal"
+    },
+    {
+		"Id": 22,
+        "Latitude": -16.601776, 
+        "Longitude": -49.268642,
+		"Descricao": "Centro de Gestão do Espaço Físico (CEGEF Samambaia)"
+    },
+    {
+		"Id": 23,
+        "Latitude": -16.606260, 
+        "Longitude": -49.260041,
+		"Descricao": "Centro de Informação, Documentação e Arquivo (CIDARQ)"
+    },
+    {
+		"Id": 24,
+        "Latitude": -16.600455, 
+        "Longitude": -49.263468,
+		"Descricao": "Centro de Manutenção de Equipamentos (CEMEQ)"
+    },
+    {
+		"Id": 25,
+        "Latitude": -16.600187, 
+        "Longitude": -49.262676,
+		"Descricao": "Centro de Recursos Computacionais (CERCOMP)"
+    },
+    {
+		"Id": 26,
+        "Latitude": -16.601266, 
+        "Longitude": -49.266602,
+		"Descricao": "Centro Editorial e Gráfico (CEGRAF)"
+    },
+    {
+		"Id": 27,
+        "Latitude": -16.606807, 
+        "Longitude": -49.261474,
+		"Descricao": "Centro Integrado de Aprendizagem em Rede (CIAR)"
+    },
+    {
+		"Id": 28,
+        "Latitude": -16.601408, 
+        "Longitude": -49.260129,
+		"Descricao": "Centro Integrado de Pesq. e Diagn. Laboratorial (CIPDL/ICB)"
+    },
+    {
+		"Id": 29,
+        "Latitude": -16.598911, 
+        "Longitude": -49.275833,
+		"Descricao": "Centro de Pesquisa em Alimentos (EVZ)"
+    },
+    {
+		"Id": 30,
+        "Latitude": -16.607708, 
+        "Longitude": -49.255034,
+		"Descricao": "Centro Reg. de Tecnol. e Inovação (CRTI/Parque Tecnológico)"
+    },
+    {
+		"Id": 31,
+        "Latitude": -16.603734, 
+        "Longitude": -49.265657,
+		"Descricao": "Centros Acadêmicos (CA's)"
+    },
+    {
+		"Id": 32,
+        "Latitude": -16.603007, 
+        "Longitude": -49.264249,
+		"Descricao": "Cine UFG"
+    },
+    {
+		"Id": 33,
+        "Latitude": -16.603765,
+        "Longitude": -49.260212,
+		"Descricao": "Correios"
+    },
+    {
+		"Id": 34,
+        "Latitude": -16.603744, 
+        "Longitude": -49.264599,
+		"Descricao": "Creche UFG"
+    },
+    {
+		"Id": 35,
+        "Latitude": -16.603217, 
+        "Longitude": -49.263416,
+		"Descricao": "Delícias do Campus"
+    },
+    {
+		"Id": 36,
+        "Latitude": -16.602256, 
+        "Longitude": -49.261913,
+		"Descricao": "Diretório Central dos Estudantes (DCE)"
+    },
+    {
+		"Id": 37,
+        "Latitude": -16.601278, 
+        "Longitude": -49.267533,
+		"Descricao": "Departamento de Material e Patrimônio (DMP)"
+    },
+    {
+		"Id": 38,
+        "Latitude": -16.600426, 
+        "Longitude": -49.276271,
+		"Descricao": "Departamento de Produção Animal"
+    },
+    {
+		"Id": 39,
+        "Latitude": -16.602255, 
+        "Longitude": -49.262815,
+		"Descricao": "Divisão CERCOMP REDES II"
+    },
+    {
+		"Id": 40,
+        "Latitude": -16.602136, 
+        "Longitude": -49.262704,
+		"Descricao": "Divisão de Telecomunicações (DTEL)"
+    },
+    {
+		"Id": 41,
+        "Latitude": -16.601592, 
+        "Longitude": -49.268209,
+		"Descricao": "Divisão de Transporte"
+    },
+    {
+		"Id": 42,
+        "Latitude": -16.605209, 
+        "Longitude": -49.259853,
+		"Descricao": "Escola de Música e Artes Cênicas (EMAC)"
+    },
+    {
+		"Id": 43,
+        "Latitude": -16.600024, 
+        "Longitude": -49.276726,
+		"Descricao": "Escola de Veterinaria"
+    },
+    {
+		"Id": 44,
+        "Latitude": -16.600557, 
+        "Longitude": -49.264526,
+		"Descricao": "Estação de Tratamento de Água (ETA)"
+    },
+    {
+		"Id": 45,
+        "Latitude": -16.602935, 
+        "Longitude": -49.265193,
+		"Descricao": "Faculdade de Adm. Ciênc. Contábeis e Economia (FACE)"
+    },
+    {
+		"Id": 46,
+        "Latitude": -16.605658, 
+        "Longitude": -49.262088,
+		"Descricao": "Faculdade de Artes Visuais (FAV)"
+    },
+    {
+		"Id": 47,
+        "Latitude": -16.603506, 
+        "Longitude": -49.263533,
+		"Descricao": "Faculdade de Ciências Sociais (FCS)"
+    },
+    {
+		"Id": 48,
+        "Latitude": -16.603508, 
+        "Longitude": -49.263323,
+		"Descricao": "Faculdade de Filosofia (FAFIL)"
+    },
+    {
+		"Id": 49,
+        "Latitude": -16.603670, 
+        "Longitude": -49.263772,
+		"Descricao": "Faculdade de História (FH)"
+    },
+    {
+		"Id": 50,
+        "Latitude": -16.604020, 
+        "Longitude": -49.263728,
+		"Descricao": "Faculdade de Comunicação e Biblioteconomia (FACOMB)"
+    },
+    {
+		"Id": 51,
+        "Latitude": -16.604814, 
+        "Longitude": -49.268646,
+		"Descricao": "Faculdade de Educação Física (FEF)"
+    },
+    {
+		"Id": 52,
+        "Latitude": -16.602761, 
+        "Longitude": -49.263863,
+		"Descricao": "Faculdade de Letras (FL)"
+    },
+    {
+		"Id": 53,
+        "Latitude": -16.604016, 
+        "Longitude": -49.260573,
+		"Descricao": "Fundação de Apoio à Pesquisa (FUNAPE)"
+    },
+    {
+		"Id": 54,
+        "Latitude": -16.602857, 
+        "Longitude": -49.265004,
+		"Descricao": "Fundação Rádio e Televisão Educativa e Cultural (RTVE)"
+    },
+    {
+		"Id": 55,
+        "Latitude": -16.605430, 
+        "Longitude": -49.268232,
+		"Descricao": "Ginásio de Esportes/FEF"
+    },
+    {
+		"Id": 56,
+        "Latitude": -16.603807, 
+        "Longitude": -49.268739,
+		"Descricao": "Ginásio de Ginástica e Lutas/FEF"
+    },
+    {
+		"Id": 57,
+        "Latitude": -16.606557, 
+        "Longitude": -49.264178,
+		"Descricao": "Herbário"
+    },
+    {
+		"Id": 58,
+        "Latitude": -16.602924, 
+        "Longitude": -49.260771,
+		"Descricao": "Instituto de Ciências Biológicas I e II (ICB I e II)"
+    },
+    {
+		"Id": 59,
+        "Latitude": -16.601880, 
+        "Longitude": -49.261140,
+		"Descricao": "Instituto de Ciências Biológicas III e IV (ICB III e IV)"
+    },
+    {
+		"Id": 60,
+        "Latitude": -16.601721, 
+        "Longitude": -49.260100,
+		"Descricao": "Instituto de Ciências Biológicas V (ICB V)"
+    },
+    {
+		"Id": 61,
+        "Latitude": -16.604192, 
+        "Longitude": -49.265595,
+		"Descricao": "Instituto de Estudos Sócio-Ambientas (IESA)"
+    },
+    {
+		"Id": 62,
+        "Latitude": -16.603298, 
+        "Longitude": -49.262705,
+		"Descricao": "Instituto de Física (IF)"
+    },
+    {
+		"Id": 63,
+        "Latitude": -16.603512, 
+        "Longitude": -49.266577,
+		"Descricao": "Instituto de Informática (INF)"
+    },
+    {
+		"Id": 64,
+        "Latitude": -16.604762, 
+        "Longitude": -49.266692,
+		"Descricao": "Instituto de Matemática e Estatística (IME)"
+    },
+    {
+		"Id": 65,
+        "Latitude": -16.603038, 
+        "Longitude": -49.261709,
+		"Descricao": "Instituto de Química (IQ)"
+    },
+    {
+		"Id": 66,
+        "Latitude": -16.601951, 
+        "Longitude": -49.264794,
+		"Descricao": "Laboratório de Análise e Gerenc. Amb. de Recur. Hídricos (LAMARH/ICB)"
+    },
+    {
+		"Id": 67,
+        "Latitude": -16.601116, 
+        "Longitude": -49.262691,
+		"Descricao": "Laboratório de Anatomia Humana e Animal/ICB"
+    },
+    {
+		"Id": 68,
+        "Latitude": -16.605534, 
+        "Longitude": -49.266505,
+		"Descricao": "Laboratório de Comunicação (LABICOM/FACOMB)"
+    },
+    {
+		"Id": 69,
+        "Latitude": -16.601782, 
+        "Longitude": -49.264201,
+		"Descricao": "Laboratório de Métodos de Extração e Separação (LAMES/IQ)"
+    },
+    {
+		"Id": 70,
+        "Latitude": -16.605394, 
+        "Longitude": -49.262264,
+		"Descricao": "Labor. de Pesq. Desenv. e Inov. em Mídias Interativas (Media Lab UFG)"
+    },
+    {
+		"Id": 71,
+        "Latitude": -16.602070, 
+        "Longitude": -49.265103,
+		"Descricao": "Laboratório de Proc. de Imag. e Geoprocessamento (LAPIC/IESA)"
+    },
+    {
+		"Id": 72,
+        "Latitude": -16.602331, 
+        "Longitude": -49.266406,
+		"Descricao": "Laboratório de Tecnol. da Inform. e Mídias Educacionais (LABTIME/ICB)"
+    },
+    {
+		"Id": 73,
+        "Latitude": -16.606074, 
+        "Longitude": -49.265534,
+		"Descricao": "Licenciatura Intercultural (Núcleo Takinahary)"
+    },
+    {
+		"Id": 74,
+        "Latitude": -16.603640, 
+        "Longitude": -49.260282,
+		"Descricao": "Livraria UFG (CC)"
+    },
+    {
+		"Id": 75,
+        "Latitude": -16.603588, 
+        "Longitude": -49.263607,
+		"Descricao": "Livraria UFG (Pátio das Humanidades)"
+    },
+    {
+		"Id": 76,
+        "Latitude": -16.602112, 
+        "Longitude": -49.265773,
+		"Descricao": "Núcleo de Pesquisa e Ensino de Ciências (NUPEC/IQ)"
+    },
+    {
+		"Id": 77,
+        "Latitude": -16.600977, 
+        "Longitude": -49.265612,
+		"Descricao": "Observatório Astronômico"
+    },
+    {
+		"Id": 78,
+        "Latitude": -16.603510, 
+        "Longitude": -49.262638,
+		"Descricao": "Pátio da Ciência"
+    },
+    {
+		"Id": 79,
+        "Latitude": -16.604763, 
+        "Longitude": -49.269211,
+		"Descricao": "Pista de Atletismo/FEF"
+    },
+    {
+		"Id": 80,
+        "Latitude": -16.606048, 
+        "Longitude": -49.267374,
+		"Descricao": "Posto de Saúde"
+    },
+    {
+		"Id": 81,
+        "Latitude": -16.605177, 
+        "Longitude": -49.265649,
+		"Descricao": "Prédio das Humanidades (FH/FCS/FAFIL)"
+    },
+    {
+		"Id": 82,
+        "Latitude": -16.599857, 
+        "Longitude": -49.261268,
+		"Descricao": "Quadra Coberta Samambaia"
+    },
+    {
+		"Id": 83,
+        "Latitude": -16.606862, 
+        "Longitude": -49.259418,
+		"Descricao": "Reitoria"
+    },
+    {
+		"Id": 84,
+        "Latitude": -16.601997, 
+        "Longitude": -49.262094,
+		"Descricao": "Restaurante Universitário (RU)"
+    },
+    {
+		"Id": 85,
+        "Latitude": -16.598440, 
+        "Longitude": -49.279752,
+		"Descricao": "Setor de Desenvolvimento Rural"
+    },
+    {
+		"Id": 86,
+        "Latitude": -16.604779, 
+        "Longitude": -49.258061,
+		"Descricao": "Seção de Segurança"
+    },
+    {
+		"Id": 87,
+        "Latitude": -16.602877, 
+        "Longitude": -49.267875,
+		"Descricao": "Substação Elétrica"
+    }
+]
